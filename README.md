@@ -1,1 +1,2 @@
-# eds_212_day4_comp1
+# eds 212 day 4 comp session 1
+# matrices!!
