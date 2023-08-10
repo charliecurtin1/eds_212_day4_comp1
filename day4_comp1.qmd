@@ -11,3 +11,38 @@ rain <- c(4, 6, 8, 9)
 
 rain_scale <- 5 * rain
 ```
+
+matrix
+
+```{r}
+my_values <- seq(from = 1, to = 10)
+```
+
+wrap into a matrix
+
+```{r}
+my_matrix <- matrix(my_values, nrow = 2, ncol = 5, byrow = TRUE)
+```
+
+```{r}
+my_matrix2 <- matrix(data = my_values, nrow = 3, ncol = 4, byrow = TRUE)
+```
+
+```{r}
+matrix_a <- matrix(data = seq(from = 2, to = 5, length = 10), 
+                   nrow = 2, 
+                   ncol = 5, 
+                   byrow = TRUE)
+```
+
+matrix addition/subtraction
+
+```{r}
+my_matrix + matrix_a
+```
+
+matrix multiplication
+
+```{r}
+
+```
